@@ -4,7 +4,7 @@ public class Main {
         int num2 = 6;
         double num3 = 5;
 
-        //test test test
+        
 
         // operator things which performs operation ie: +, -, * etc
         // operands things that are use by operators: float, int etc
