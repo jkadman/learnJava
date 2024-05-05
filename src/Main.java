@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -41,6 +43,19 @@ public class Main {
             System.out.println("You made it to the next level!");
         } else {
             System.out.println("You are close keep up the work");
+        }
+
+        int time = 105;
+
+        switch (time) {
+            case 10:
+                System.out.println("It is ten o'clock.");
+                break;
+                case 11:
+                    System.out.println("It is eleven o'clock.");
+                    break;
+            default:
+                System.out.println("You exist outside of time");
         }
     }
 }
