@@ -25,5 +25,11 @@ public class Main {
             }
             System.out.println("i = " + i);
         }
+
+        int number = 0;
+        while (number <= 10) {
+            System.out.println("Your number is " + number);
+            number++;
+        }
     }
 }
