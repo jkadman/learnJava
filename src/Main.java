@@ -49,15 +49,23 @@ public class Main {
         System.out.println("Please enter a time");
         int time = scanner.nextInt();
 
+        // regular switch
+//        switch (time) {
+//            case 10:
+//                System.out.println("It is ten o'clock.");
+//                break;
+//            case 11:
+//                System.out.println("It is eleven o'clock.");
+//                break;
+//            default:
+//                System.out.println("You exist outside of time");
+//        }
+
+        // enhanced switch statement
         switch (time) {
-            case 10:
-                System.out.println("It is ten o'clock.");
-                break;
-                case 11:
-                    System.out.println("It is eleven o'clock.");
-                    break;
-            default:
-                System.out.println("You exist outside of time");
+            case 10 -> System.out.println("It is ten o'clock.");
+            case 11 -> System.out.println("It is eleven o'clock.");
+            default -> System.out.println("You exist outside of time");
         }
     }
 }
