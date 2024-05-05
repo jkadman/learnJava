@@ -1,6 +1,8 @@
 import java.sql.SQLOutput;
+import java.util.Scanner;
 
 public class Main {
+    public static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
 
         // some review: = is called assignment operator; == is called equality operators
@@ -44,8 +46,8 @@ public class Main {
         } else {
             System.out.println("You are close keep up the work");
         }
-
-        int time = 105;
+        System.out.println("Please enter a time");
+        int time = scanner.nextInt();
 
         switch (time) {
             case 10:
