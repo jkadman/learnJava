@@ -31,5 +31,12 @@ public class Main {
             System.out.println("Your number is " + number);
             number++;
         }
+        // will execute code at least once and then check condition
+
+        int number2 = 0;
+        do {
+            System.out.println("This is number " + number2);
+            number2++;
+        } while (number2 <= 6);
     }
 }
