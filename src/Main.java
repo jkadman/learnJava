@@ -24,6 +24,17 @@ public class Main {
         short maxShort = Short.MAX_VALUE;
         short minShort = Short.MIN_VALUE;
 
+        // Two types of fractional numbers in Java: Float and Double.  Float has size of 32 bits, Double has size of 64 bits
+        // Similar to the issue with long a number, such as 3.14, is assumed to be a double.  Must add F to the end to indicate you are using a Float.
+        float flNum = 3.14F;
+        double douNum = 2.456;
+
+        float maxFloat = Float.MAX_VALUE;
+        float minFloat = Float.MIN_VALUE;
+
+        double maxDouble = Double.MAX_VALUE;
+        double minDouble = Double.MIN_VALUE;
+
         System.out.println("Hello " + name +"!");
         System.out.println("Hello " + name2 +"!");
         System.out.println("Hello " + name3 +"!");
@@ -42,5 +53,13 @@ public class Main {
 
         System.out.println("Max Short value: " + maxShort);
         System.out.println("Min Short value: " + minShort);
+        System.out.println("Float value: " + flNum);
+        System.out.println("Double value: " + douNum);
+
+        System.out.println("Max Float Value: " + maxFloat);
+        System.out.println("Min Float Value: " + minFloat);
+
+        System.out.println("Max Double Value: " + maxDouble);
+        System.out.println("Min Double Value: " + minDouble);
     }
 }
