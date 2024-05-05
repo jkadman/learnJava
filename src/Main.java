@@ -62,6 +62,7 @@ public class Main {
 //        }
 
         // enhanced switch statement
+        // doesn't require break statement
         switch (time) {
             case 10 -> System.out.println("It is ten o'clock.");
             case 11 -> System.out.println("It is eleven o'clock.");
