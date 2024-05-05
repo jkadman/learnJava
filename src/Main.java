@@ -4,7 +4,7 @@ public class Main {
         int num2 = 6;
         double num3 = 5;
 
-        
+
 
         // operator things which performs operation ie: +, -, * etc
         // operands things that are use by operators: float, int etc
@@ -30,8 +30,16 @@ public class Main {
         myNumber *= 4;
         System.out.println(myNumber);
 
+        // post fix incrementation, prints original value and then increments it
         int myNumber2 = 3;
-        myNumber2++;
-        System.out.println(myNumber2);
+        System.out.println("postfix incrementation: " + myNumber2++);
+        System.out.println("After incrementation: " + myNumber2);
+
+        // can also do prefix incrementation, increments and returns
+        System.out.println("prefix incrementation: " + ++myNumber2);
+
+        // can also do prefix decrementation
+        System.out.println("prefix decrementation: " + --myNumber2);
+
     }
 }
