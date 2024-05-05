@@ -9,5 +9,15 @@ public class Main {
             System.out.println("Your age is only " + age + "." + " Please come back in " + (19 - age) + " years!");
         }
 
+        int year = 2024;
+
+        if (year == 2024) {
+            System.out.println("the year is " + year);
+        } else if (year == 2025) {
+            System.out.println("the year is " + year);
+        } else {
+            System.out.println("You exist outside of time");
+        }
+
     }
 }
