@@ -19,5 +19,28 @@ public class Main {
             System.out.println("You exist outside of time");
         }
 
+        boolean isActive = true;
+
+        // doesn't require == true as we have declared isActive as true
+        if (isActive) {
+            System.out.println("You are active");
+        } else {
+            System.out.println("You are not active");
+        }
+        // reminder you can do !variable to indicate if a variable is false
+//        if (!isActive) {
+//            System.out.println("You are active");
+//        } else {
+//            System.out.println("You are not active");
+//        }
+
+
+        int score = 100;
+        // could also use || for or
+        if (score >= 100 && isActive) {
+            System.out.println("You made it to the next level!");
+        } else {
+            System.out.println("You are close keep up the work");
+        }
     }
 }
