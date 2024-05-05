@@ -35,6 +35,12 @@ public class Main {
         double maxDouble = Double.MAX_VALUE;
         double minDouble = Double.MIN_VALUE;
 
+        // char data type lets you store one character, use '' for this one
+        char letter = 'A';
+
+        // boolean usually has a variable name that starts with the word is
+        boolean isActive = true;
+
         System.out.println("Hello " + name +"!");
         System.out.println("Hello " + name2 +"!");
         System.out.println("Hello " + name3 +"!");
@@ -61,5 +67,8 @@ public class Main {
 
         System.out.println("Max Double Value: " + maxDouble);
         System.out.println("Min Double Value: " + minDouble);
+
+        System.out.println("char data type: " + letter);
+        System.out.println("boolean data type: " + isActive);
     }
 }
