@@ -9,6 +9,8 @@ public class Main {
             Car car = new Car("Tesla", "S PLAID", "BLACK", 4);
             Car car2 = new Car("Honda", "FIT", "SILVER", 4);
 
+            car.move();
+            car.stop();
         System.out.println(car.getName());
         System.out.println(car.getModel());
         System.out.println(car.getColor());
