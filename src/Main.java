@@ -14,5 +14,16 @@ public class Main {
         for (int i = 0; i < numbers.length; i++) {
             System.out.println("This is number " + numbers[i]);
         }
+
+        // have to add -1 if change i <= numbers.length
+        for (int i = 0; i <= numbers.length - 1; i++) {
+            System.out.println("This is also number " + numbers[i]);
+        }
+
+        String[] friends = {"Maria", "Alex", "Bita", "John", "Steve"};
+        for (String friend : friends) {
+            System.out.println(friend);
+        }
+
     }
 }
