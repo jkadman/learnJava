@@ -24,6 +24,10 @@ public class Main {
         for (String friend : friends) {
             System.out.println(friend);
         }
+        System.out.println("\n");
+        for (int i = 0; i < friends.length; i++) {
+            System.out.println(friends[i]);
+        }
 
     }
 }
