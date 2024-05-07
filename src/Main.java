@@ -1,6 +1,9 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         // array: store multiple values in a variable
+        // cannot add values to the array once created
         int[] numbers = {12, 15, 60, 100, 200, 20, 50};
         // for each statement, different than in JS
         for (int number : numbers) {
@@ -28,6 +31,15 @@ public class Main {
         for (int i = 0; i < friends.length; i++) {
             System.out.println(friends[i]);
         }
+        // can create an array of limited size and add values to it as so:
+        int[] numbers2 = new int[5];
+        numbers2[0] = 1;
+        numbers2[1] = 6;
+        numbers2[2] = 11;
+        numbers2[3] = 72;
+        numbers2[4] = 2;
+
+        System.out.println(Arrays.toString(numbers2));
 
     }
 }
