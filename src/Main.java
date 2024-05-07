@@ -1,3 +1,5 @@
+
+
 public class Main {
     public static void main(String[] args) {
         // OOP: way of writing code in the way we think about things in the world, take a car
@@ -32,5 +34,13 @@ public class Main {
         System.out.println(car4.getModel());
         System.out.println(car4.getColor());
         System.out.println(car4.getDoors());
+
+        System.out.println("\n");
+        System.out.println("\n");
+        System.out.println("\n");
+
+        Animal animal = new Animal("Fred", "Goat", "Grey", Boolean.TRUE);
+
+        animal.sit();
     }
 }
