@@ -8,7 +8,8 @@ public class Main {
         // create new object called instantiation
             Car car = new Car("Tesla", "S PLAID", "BLACK", 4);
             Car car2 = new Car("Honda", "FIT", "SILVER", 4);
-
+            Car car3 = new Car();
+            Car car4 = new Car("Mercades", "Benz");
             car.move();
             car.stop();
         System.out.println(car.getName());
@@ -24,5 +25,12 @@ public class Main {
         System.out.println("\n");
         car.setColor("Red");
         System.out.println(car.getColor());
+
+        System.out.println(car3.getName());
+        System.out.println("\n");
+        System.out.println(car4.getName());
+        System.out.println(car4.getModel());
+        System.out.println(car4.getColor());
+        System.out.println(car4.getDoors());
     }
 }

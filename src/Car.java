@@ -12,6 +12,21 @@ public class Car {
         this.color = color;
         this.doors = doors;
     }
+
+    // can create default values for constructor so if someone creates a car without a parameter it will fill in any missing values
+    public Car() {
+        this("Name", "Model", "Color", 0);
+    }
+    // add default values if any parameters are not included while creating object
+    public Car(String name) {
+        this(name, "Model", "Color", 0);
+    }
+    public Car(String name, String model) {
+        this(name, model, "Color", 0);
+    }
+    public Car(String name, String model, String color) {
+        this(name, model, color, 0);
+    }
     // method
     public void move() {
         System.out.println("The car " + this.name + " is moving.");
