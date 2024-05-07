@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Creature {
 
         private String name;
@@ -37,6 +39,12 @@ public class Creature {
         public Fish(String name, String species, int fins) {
             super(name, species);
             this.fins = fins;
+        }
+
+        @Override
+        public void behave() {
+            System.out.println("Swimming with the fishes!");
+            super.behave();
         }
 
 

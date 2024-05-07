@@ -42,5 +42,9 @@ public class Main {
         Animal animal = new Animal("Fred", "Goat", "Grey", Boolean.TRUE);
 
         animal.sit();
+
+        System.out.println("\n");
+        Fish fish = new Fish("Bobby", "Shark", 2);
+        fish.behave();
     }
 }
